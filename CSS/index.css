@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background: silver;
+}
+
+#side-menu__open-btn {
+    margin: 0 0 5px 5px;
+    align-self: flex-end;
+    width: 40px;
+    height: 37px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#side-menu__open-btn > span {
+    width: 100%;
+    height: 15%;
+    background:  rgb(31, 100, 156);
+}
+
+.logotipo {
+    margin: 10px auto;
+    height: 70px;
+}
+
+#login {
+    background: #D3D3D3;
+    display: flex;
+    border-radius: 5px;
+    width: 60px;
+    justify-content: center;
+    margin: 9px 10px 0 0;
+}
+
+#container_login {
+    margin-top: 50%;
+    box-shadow: 7px 7px 10px;
+    display: none;
+    flex-direction: column;
+    align-self: center;
+    width: 75%;
+    height: 47%;
+    position: fixed;
+    background: whitesmoke;
+    z-index: 3;
+}
+
+#container_login-close-btn{
+    margin-bottom: 25px;
+    align-self: flex-end;
+}
+
+#container_login > input {
+    padding: 5px;
+    width: 75%;
+    height: 30px;
+    margin: 5px auto;
+}
+
+#container_login > label {
+    margin: 0 35px;
+}
+
+#container_login > span:not(:first-child) {
+    margin: 7px 0 7px 27.781px;
+}
+
+#container_login > div {
+    margin-left: 27.781px;
+}
+
+#container_recover-password {
+    display: none;
+    flex-direction: column;
+    width: 75.5%;
+    height: 25%;
+    padding: 5px;
+    background: whitesmoke;
+    z-index: 3;
+    margin-left: 12.5%;
+    margin-top: 50%;
+    position: fixed;
+}
+
+#container_recover-password > span:not(:first-child) {
+    background: rgb(31, 100, 156);
+    width: 20%;
+    align-self: center;
+    margin-top: 20px;
+    height: 20%;
+    text-align: center;
+    padding-top: 2px;
+}
+
+#container_recover-password > label {
+    margin-top: 10px;
+}
+
+#insert-gmail_field-recover {
+    margin: 5px;
+    padding: 5px;
+}
+
+aside {
+
+    position: fixed;
+    display: contents;
+}
+
+#side-menu {
+    display: flex;
+    position: fixed;  
+    top: 94px;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 85vh;
+    width: 71%;
+    margin-left: -210vw !important;
+    z-index: 1;
+    box-shadow: 1px 1px 9px black;
+}
+
+
+#side-menu__close-btn {
+    margin-bottom: 20%;
+    align-self: flex-end;
+}
+
+.close-btn {
+    text-align: center;
+    line-height: 30px;
+    font-size: 28px;
+    width: 30px;
+    height: 30px;
+    border-bottom-left-radius: 9px;
+    background: red;
+}
+
+#side-menu > a {
+    display: flex;
+    text-decoration: none;
+}
+
+#side-menu > a > span :first-child {
+    /* border-top: 2px silver solid; */
+}
+
+#side-menu > a > span {
+    padding: 10px;
+    color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px silver solid;
+}
+
+.open {
+    transform: translateX(209vw);
+}
+
+#side-menu__open-btn {
+    margin: 0 0 5px 5px;
+    align-self: flex-end;
+    width: 40px;
+    height: 37px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#side-menu__open-btn > span {
+    width: 100%;
+    height: 15%;
+    background:  rgb(31, 100, 156);
+}
+
+section{
+    /* margin-left: -190px; */
+    display: flex;
+    height: 500px;
+}
+
+.search_vacancies-index {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+    height: 44%;
+    margin: 40px auto 0;
+    background: whitesmoke;
+    justify-content: center;
+    box-shadow: 4px 4px 10px 0px #bfc0bf;
+}
+
+.search_vacancies-index > input {
+    width: 85%;
+    margin: 0 auto;
+    height: 30px;
+    padding: 5px;
+}
+
+.search_vacancies-index > select {
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search_vacancies-index > label {
+    margin: 5px 0 2px 0;
+    margin: 10px 0 0 18px;
+}
+
+#search_button-index {
+    margin-top: 20px;
+    width: 47%;
+    align-self: center;
+    height: 43px;
+    background:rgb(31, 100, 156);
+}
+
+#blur {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 2;
+    position: fixed;
+}

@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background: silver;
+}
+
+#side-menu__open-btn {
+    margin: 0 0 5px 5px;
+    align-self: flex-end;
+    width: 40px;
+    height: 37px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#side-menu__open-btn > span {
+    width: 100%;
+    height: 15%;
+    background:  rgb(31, 100, 156);
+}
+
+nav > a {
+
+    margin: auto;
+    height: 90px;
+}
+
+.logotipo {
+    margin: 10px auto;
+    height: 70px;
+}
+
+#login {
+    background: #D3D3D3;
+    display: flex;
+    border-radius: 5px;
+    width: 60px;
+    justify-content: center;
+    margin: 9px 10px 0 0;
+}
+
+#side-menu {
+    position: fixed;
+    background: whitesmoke;
+    top: 94px;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 71%;
+    box-shadow: 1px 1px 9px black;
+    z-index: 2;
+    margin-left: -80vw !important;
+}
+
+.open {
+    transform: translateX(209vw);
+}
+
+#side-menu > span:not(:first-child) {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    width: 92%;
+    height: 10%;
+    border-bottom:solid #D3D3D3
+    1px;
+    top: 50%;
+    left: 50%;
+    margin: 0.5px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#side-menu > span:nth-child(2) {
+    border-top: 1px solid #D3D3D3;
+}
+
+#side-menu > span:not(:first-child) > p {
+    align-self: flex-end;
+}
+
+.open {
+    transform: translateX(80vw);
+}
+
+.close-btn {
+    align-self: flex-end;
+    text-align: center;
+    line-height: 30px;
+    font-size: 28px;
+    width: 30px;
+    height: 30px;
+    border-bottom-left-radius: 9px;
+    background: red;
+}
+
+#side-menu__close-btn {
+    margin-bottom: 20%;
+}
+
+section {
+    padding: 20px;
+}

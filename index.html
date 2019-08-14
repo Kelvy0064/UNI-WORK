@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UNI-WORK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/index.css">
+</head>
+<body>
+    <nav>
+        <div id="side-menu__open-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="img/logotipo.png" class="logotipo">
+        <div class="container_btn-login">
+            <span id="login">Logar</span>
+        </div>
+    </nav>
+    <div id="container_login">
+        <span id="container_login-close-btn" class="close-btn">&times;</span>
+        <label for="input_login-usuario">Usuário</label>
+        <input id="input_login-usuario" type="text">
+        <label for="input_login-senha">Senha</label>
+        <input id="input_login-senha" type="password">
+        <span id="recover_password">Esqueci minha senha</span>
+        <div>
+            <input type="checkbox">Mantenha-me logado
+        </div>  
+        <span >Logar</span>
+    </div>
+    <div id="container_recover-password">
+        <span id="conteiner_recover_password-close-btn" class="close-btn">&times;</span>
+        <label for="insert-gmail_field-recover">E-mail</label>
+        <input id="insert-gmail_field-recover" type="text" placeholder="Ensira o e-mail cadastrado">
+        <span>Enviar</span>
+    </div>
+    <div id="blur"></div>
+    <aside>    
+        <div id="side-menu">
+            <span id="side-menu__close-btn" class="close-btn">&times;</span>
+            <a href=""><span>MEU PERFIL <p>></p></span></a>
+            <a href=""><span>CADASTRAR VAGA <p>></p></span></a>
+            <a href=""><span>TREINAMENTO <p>></p></span></a>
+            <a href="sobre.html"><span>QUEM SOMOS <p>></p></span></a>
+            <a href=""><span>MERCADO DE TRABALHO <p>></p></span></a>
+            <a href=""><span>FALE CONOSCO <p>></p></span></a>
+        </div>
+    </aside>
+    <section>
+        <div class="search_vacancies-index">
+            <label for="desired_area_field-index">Cargo</label>
+        <input id="desired_area_field-index" type="text" placeholder="Area desejada">
+        <label for="state_selection-index">Estado</label>
+        <select name="" id="state_selection-index">
+            <option value="">Selecione...</option>
+            <option value="">Acre-AC</option>
+            <option value="">Alagoas-AL</option>
+            <option value="">Amapá-AP</option>
+            <option value="">Amazonas-AM</option>
+            <option value="">Bahia-BA</option>
+            <option value="">Ceará-CE</option>
+            <option value="">Distrito Federal-DF</option>
+            <option value="">Espírito Santo-ES</option>
+            <option value="">Goiás-GO</option>
+            <option value="">Maranhão-MA</option>
+            <option value="">Mato Grosso-MT</option>
+            <option value="">Mato Grosso do Sul-MS</option>
+            <option value="">Minas Gerias-MG</option>
+            <option value="">Pará-PA</option>
+            <option value="">Paraíba-PB</option>
+            <option value="">Paraná-PR</option>
+            <option value="">Pernambuco-PE</option>
+            <option value="">Piauí-PI</option>
+            <option value="">Rio de Janeiro-RJ</option>
+            <option value="">Rio Grande do Norte-RN</option>
+            <option value="">Rio Grande do Sul-RS</option>
+            <option value="">Rondônia-RO</option>
+            <option value="">Roraima-RR</option>
+            <option value="">Santa Catarina-SC</option>
+            <option value="">São Paulo-SP</option>
+            <option value="">Sergipe-SE</option>
+            <option value="">Tocantins-TO</option>
+        </select>
+        <button id="search_button-index">Procurar vagas</button>
+    </div>
+    </section>
+    <script src="JS/common.js"></script>
+</body>
+</html>
